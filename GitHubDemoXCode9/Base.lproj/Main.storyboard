@@ -36,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="292" y="29.23538230884558"/>
         </scene>
-        <!--View Controller-->
+        <!--Sec View Controller-->
         <scene sceneID="mYV-kq-M1f">
             <objects>
-                <viewController id="ueo-Y5-jHK" sceneMemberID="viewController">
+                <viewController id="ueo-Y5-jHK" customClass="SecViewController" customModule="GitHubDemoXCode9" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DRN-1h-iMO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

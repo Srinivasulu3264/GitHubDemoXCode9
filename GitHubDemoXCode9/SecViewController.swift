@@ -12,8 +12,18 @@ class SecViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let button : UIButton = UIButton(frame: CGRect(x:100 , y:150, width:120, height:50))
+        button.setTitle("TEST", for: UIControlState.normal)
+        button.backgroundColor = UIColor.green
+        button.setTitleColor(UIColor.red, for: UIControlState.normal)
+        button.addTarget(self, action: #selector(action), for: UIControlEvents.touchUpInside)
+       self.view.addSubview(button)
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func action ()  {
+        print("button tapped ")
     }
 
     override func didReceiveMemoryWarning() {
