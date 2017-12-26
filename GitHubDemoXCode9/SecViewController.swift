@@ -13,6 +13,7 @@ class SecViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("added svc")
         // Do any additional setup after loading the view.
     }
 
