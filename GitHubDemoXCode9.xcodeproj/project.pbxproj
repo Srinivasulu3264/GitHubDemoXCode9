@@ -14,6 +14,7 @@
 		86A687B41FF22CA6002C660D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A687B21FF22CA6002C660D /* LaunchScreen.storyboard */; };
 		86A687BF1FF22CA7002C660D /* GitHubDemoXCode9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A687BE1FF22CA7002C660D /* GitHubDemoXCode9Tests.swift */; };
 		86A687CA1FF22CA7002C660D /* GitHubDemoXCode9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A687C91FF22CA7002C660D /* GitHubDemoXCode9UITests.swift */; };
+		86A687D81FF2317C002C660D /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A687D71FF2317C002C660D /* SecViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		86A687C51FF22CA7002C660D /* GitHubDemoXCode9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubDemoXCode9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A687C91FF22CA7002C660D /* GitHubDemoXCode9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubDemoXCode9UITests.swift; sourceTree = "<group>"; };
 		86A687CB1FF22CA7002C660D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A687D71FF2317C002C660D /* SecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				86A687A91FF22CA6002C660D /* AppDelegate.swift */,
 				86A687AB1FF22CA6002C660D /* ViewController.swift */,
+				86A687D71FF2317C002C660D /* SecViewController.swift */,
 				86A687AD1FF22CA6002C660D /* Main.storyboard */,
 				86A687B01FF22CA6002C660D /* Assets.xcassets */,
 				86A687B21FF22CA6002C660D /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				86A687AC1FF22CA6002C660D /* ViewController.swift in Sources */,
 				86A687AA1FF22CA6002C660D /* AppDelegate.swift in Sources */,
+				86A687D81FF2317C002C660D /* SecViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
