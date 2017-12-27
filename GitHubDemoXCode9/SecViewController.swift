@@ -14,9 +14,20 @@ class SecViewController: UIViewController {
         super.viewDidLoad()
 
         print("added svc")
+        
+        
+        let button: UIButton = UIButton(frame: CGRect(x:100, y:120, width:120, height:50))
+        
+        
+        button.setTitle("Test", for: UIControlState.normal)
+        button.addTarget(self, action: #selector(action), for: UIControlEvents.touchUpInside)
+        self.view.addSubview(button)
         // Do any additional setup after loading the view.
     }
 
+    @objc func action ()  {
+        print("button tapped")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
